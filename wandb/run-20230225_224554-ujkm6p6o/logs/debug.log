@@ -1,0 +1,37 @@
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_setup.py:_flush():68] Configure stats pid to 67791
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_setup.py:_flush():68] Loading settings from /home/ubuntu/.config/wandb/settings
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_setup.py:_flush():68] Loading settings from /home/ubuntu/thesis_implementation/wandb/settings
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'notebook_name': 'experiment.ipynb', 'project': 'Graphically Guided Neural EM for Unsupervised Image Segmentation', 'entity': 'isaacwasserman', 'root_dir': '/home/ubuntu/thesis_implementation', 'run_id': 'ujkm6p6o', 'sweep_param_path': '/home/ubuntu/thesis_implementation/wandb/sweep-zd3293wl/config-ujkm6p6o.yaml', 'sweep_id': 'zd3293wl'}
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'experiment.py', 'program': 'experiment.py'}
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_init.py:_log_setup():492] Logging user logs to /home/ubuntu/thesis_implementation/wandb/run-20230225_224554-ujkm6p6o/logs/debug.log
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_init.py:_log_setup():493] Logging internal logs to /home/ubuntu/thesis_implementation/wandb/run-20230225_224554-ujkm6p6o/logs/debug-internal.log
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_init.py:init():532] calling init triggers
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_init.py:init():538] wandb.init called with sweep_config: {'d': 8, 'dropout': 0.3, 'image_size': [512, 512], 'iterations': 400, 'lambda_': 0.1, 'lr': 0.01, 'n_filters': 128, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.3}
+config: {}
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_init.py:init():588] starting backend
+2023-02-25 22:45:54,229 INFO    Thread-10 :67791 [wandb_init.py:init():592] setting up manager
+2023-02-25 22:45:54,232 INFO    Thread-10 :67791 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-25 22:45:54,235 INFO    Thread-10 :67791 [wandb_init.py:init():599] backend started and connected
+2023-02-25 22:45:54,238 INFO    Thread-10 :67791 [wandb_run.py:_config_callback():1250] config_cb None None {'d': 8, 'dropout': 0.3, 'image_size': [512, 512], 'iterations': 400, 'lambda_': 0.1, 'lr': 0.01, 'n_filters': 128, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.3}
+2023-02-25 22:45:54,239 INFO    Thread-10 :67791 [wandb_init.py:init():687] updated telemetry
+2023-02-25 22:45:54,248 INFO    Thread-10 :67791 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-25 22:45:54,451 INFO    Thread-10 :67791 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-25 22:45:54,468 INFO    Thread-10 :67791 [wandb_run.py:_on_init():2143] got version response 
+2023-02-25 22:45:54,469 INFO    Thread-10 :67791 [wandb_init.py:init():775] starting run threads in backend
+2023-02-25 22:45:56,476 ERROR   Thread-10 :67791 [wandb_init.py:init():1160] error
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1133, in init
+    run = wi.init()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 787, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 273, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 120, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 116, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception

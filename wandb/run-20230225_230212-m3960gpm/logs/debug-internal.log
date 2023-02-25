@@ -1,0 +1,47 @@
+2023-02-25 23:02:12,976 INFO    StreamThr :71834 [internal.py:wandb_internal():87] W&B internal server running at pid: 71834, started at: 2023-02-25 23:02:12.976005
+2023-02-25 23:02:12,978 DEBUG   HandlerThread:71834 [handler.py:handle_request():144] handle_request: status
+2023-02-25 23:02:12,983 INFO    WriterThread:71834 [datastore.py:open_for_write():85] open: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/run-m3960gpm.wandb
+2023-02-25 23:02:12,984 DEBUG   SenderThread:71834 [sender.py:send():336] send: header
+2023-02-25 23:02:13,056 DEBUG   SenderThread:71834 [sender.py:send():336] send: run
+2023-02-25 23:02:13,267 DEBUG   HandlerThread:71834 [handler.py:handle_request():144] handle_request: check_version
+2023-02-25 23:02:13,268 INFO    SenderThread:71834 [dir_watcher.py:__init__():216] watching files in: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/files
+2023-02-25 23:02:13,268 INFO    SenderThread:71834 [sender.py:_start_run_threads():1067] run started: m3960gpm with start time 1677366132.977167
+2023-02-25 23:02:13,268 DEBUG   SenderThread:71834 [sender.py:send_request():363] send_request: summary_record
+2023-02-25 23:02:13,268 INFO    SenderThread:71834 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-25 23:02:13,268 DEBUG   SenderThread:71834 [sender.py:send_request():363] send_request: check_version
+2023-02-25 23:02:13,336 DEBUG   HandlerThread:71834 [handler.py:handle_request():144] handle_request: run_start
+2023-02-25 23:02:13,342 DEBUG   HandlerThread:71834 [system_info.py:__init__():31] System info init
+2023-02-25 23:02:13,342 DEBUG   HandlerThread:71834 [system_info.py:__init__():46] System info init done
+2023-02-25 23:02:13,342 INFO    HandlerThread:71834 [system_monitor.py:start():151] Starting system monitor
+2023-02-25 23:02:13,342 INFO    SystemMonitor:71834 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-25 23:02:13,342 INFO    HandlerThread:71834 [system_monitor.py:probe():172] Collecting system info
+2023-02-25 23:02:13,343 INFO    SystemMonitor:71834 [interfaces.py:start():168] Started cpu
+2023-02-25 23:02:13,343 INFO    SystemMonitor:71834 [interfaces.py:start():168] Started disk
+2023-02-25 23:02:13,343 INFO    SystemMonitor:71834 [interfaces.py:start():168] Started gpu
+2023-02-25 23:02:13,344 INFO    SystemMonitor:71834 [interfaces.py:start():168] Started memory
+2023-02-25 23:02:13,344 INFO    SystemMonitor:71834 [interfaces.py:start():168] Started network
+2023-02-25 23:02:13,352 DEBUG   HandlerThread:71834 [system_info.py:probe():195] Probing system
+2023-02-25 23:02:13,358 DEBUG   HandlerThread:71834 [system_info.py:_probe_git():180] Probing git
+2023-02-25 23:02:13,365 DEBUG   HandlerThread:71834 [system_info.py:_probe_git():188] Probing git done
+2023-02-25 23:02:13,365 DEBUG   HandlerThread:71834 [system_info.py:probe():241] Probing system done
+2023-02-25 23:02:13,365 DEBUG   HandlerThread:71834 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-52-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-02-25T23:02:13.352850', 'startedAt': '2023-02-25T23:02:12.966498', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'experiment.py', 'codePath': 'experiment.py', 'git': {'remote': 'https://github.com/isaacwasserman/thesis_implementation', 'commit': 'ed2a7b56a0aaca54b13c84532802375af71969be'}, 'email': None, 'root': '/home/ubuntu/thesis_implementation', 'host': '192-9-250-58', 'username': 'ubuntu', 'executable': '/usr/bin/python', 'cpu_count': 30, 'cpu_count_logical': 30, 'disk': {'total': 1356.6585998535156, 'used': 19.884815216064453}, 'gpu': 'NVIDIA A10', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A10', 'memory_total': 24146608128}], 'memory': {'total': 196.58040237426758}}
+2023-02-25 23:02:13,365 INFO    HandlerThread:71834 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-25 23:02:13,365 INFO    HandlerThread:71834 [system_monitor.py:probe():185] Publishing system info
+2023-02-25 23:02:13,365 DEBUG   HandlerThread:71834 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-25 23:02:13,366 DEBUG   HandlerThread:71834 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-25 23:02:13,366 INFO    HandlerThread:71834 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-25 23:02:13,370 DEBUG   SenderThread:71834 [sender.py:send():336] send: files
+2023-02-25 23:02:13,371 INFO    SenderThread:71834 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-25 23:02:13,376 DEBUG   HandlerThread:71834 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-25 23:02:13,376 DEBUG   SenderThread:71834 [sender.py:send_request():363] send_request: stop_status
+2023-02-25 23:02:13,449 DEBUG   SenderThread:71834 [sender.py:send():336] send: telemetry
+2023-02-25 23:02:13,737 INFO    wandb-upload_0:71834 [upload_job.py:push():138] Uploaded file /tmp/tmph7b5s5hjwandb/rlidbk9g-wandb-metadata.json
+2023-02-25 23:02:14,269 INFO    Thread-13 :71834 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/files/wandb-summary.json
+2023-02-25 23:02:14,269 INFO    Thread-13 :71834 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/files/wandb-metadata.json
+2023-02-25 23:02:14,269 INFO    Thread-13 :71834 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/files/requirements.txt
+2023-02-25 23:02:18,289 DEBUG   HandlerThread:71834 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 23:02:19,270 INFO    Thread-13 :71834 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/files/output.log
+2023-02-25 23:02:21,270 INFO    Thread-13 :71834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/files/output.log
+2023-02-25 23:02:23,335 DEBUG   HandlerThread:71834 [handler.py:handle_request():144] handle_request: status_report
+2023-02-25 23:02:27,272 INFO    Thread-13 :71834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ubuntu/thesis_implementation/wandb/run-20230225_230212-m3960gpm/files/output.log
+2023-02-25 23:02:28,376 DEBUG   HandlerThread:71834 [handler.py:handle_request():144] handle_request: keepalive
