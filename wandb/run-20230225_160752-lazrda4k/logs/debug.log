@@ -202,3 +202,9 @@ config: {}
 2023-02-25 16:31:22,995 INFO    Thread-63 (_run_job):63951 [wandb_run.py:_footer_sync_info():3398] logging synced files
 2023-02-25 16:31:23,118 INFO    MainThread:63951 [jupyter.py:save_ipynb():379] not saving jupyter notebook
 2023-02-25 16:31:23,119 INFO    MainThread:63951 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-25 16:47:08,401 INFO    MainThread:63951 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-25 16:47:09,756 INFO    MainThread:63951 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-25 16:47:09,756 INFO    MainThread:63951 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-25 16:47:21,095 INFO    MainThread:63951 [wandb_init.py:_resume_backend():408] resuming backend
+2023-02-25 16:47:21,143 INFO    MainThread:63951 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-25 16:47:21,143 INFO    MainThread:63951 [wandb_init.py:_pause_backend():403] pausing backend
