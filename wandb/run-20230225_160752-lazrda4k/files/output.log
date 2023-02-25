@@ -1,0 +1,18 @@
+
+
+
+100%|██████████| 4/4 [00:07<00:00,  1.83s/it]
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+
+
+
+
+100%|██████████| 4/4 [00:06<00:00,  1.57s/it]
+
+
+
+
+100%|██████████| 4/4 [00:06<00:00,  1.61s/it]
+Create sweep with ID: 65ne750t
+Sweep URL: https://wandb.ai/isaacwasserman/Graphically%20Guided%20Neural%20EM%20for%20Unsupervised%20Image%20Segmentation/sweeps/65ne750t
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

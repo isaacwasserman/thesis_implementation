@@ -1,0 +1,37 @@
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_setup.py:_flush():68] Configure stats pid to 30096
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_setup.py:_flush():68] Loading settings from /Users/isaac/.config/wandb/settings
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_setup.py:_flush():68] Loading settings from /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/settings
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_setup.py:_flush():68] Applying login settings: {'api_key': '***REDACTED***'}
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_init.py:_log_setup():492] Logging user logs to /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/run-20230225_155820-x9rq2k8c/logs/debug.log
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/run-20230225_155820-x9rq2k8c/logs/debug-internal.log
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x2f91a3340>
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_init.py:init():532] calling init triggers
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_init.py:init():588] starting backend
+2023-02-25 15:58:20,395 INFO    MainThread:30096 [wandb_init.py:init():592] setting up manager
+2023-02-25 15:58:20,399 INFO    MainThread:30096 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-02-25 15:58:20,400 INFO    MainThread:30096 [wandb_init.py:init():599] backend started and connected
+2023-02-25 15:58:20,402 INFO    MainThread:30096 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-02-25 15:58:20,402 INFO    MainThread:30096 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-25 15:58:20,402 INFO    MainThread:30096 [wandb_init.py:init():687] updated telemetry
+2023-02-25 15:58:20,419 INFO    MainThread:30096 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-25 15:58:34,250 WARNING MainThread:30096 [wandb_init.py:init():1154] interrupted
+Traceback (most recent call last):
+  File "/Users/isaac/miniforge3/envs/pytorch/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1133, in init
+    run = wi.init()
+  File "/Users/isaac/miniforge3/envs/pytorch/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 730, in init
+    result = run_init_handle.wait(
+  File "/Users/isaac/miniforge3/envs/pytorch/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 273, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/Users/isaac/miniforge3/envs/pytorch/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 120, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/Users/isaac/miniforge3/envs/pytorch/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 116, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/Users/isaac/miniforge3/envs/pytorch/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/isaac/miniforge3/envs/pytorch/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

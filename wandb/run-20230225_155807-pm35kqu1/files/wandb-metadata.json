@@ -1,0 +1,33 @@
+{
+    "os": "macOS-13.2-arm64-arm-64bit",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-02-25T20:58:08.907986",
+    "startedAt": "2023-02-25T20:58:07.503594",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:isaacwasserman/thesis_implementation.git",
+        "commit": "f19b4b3a38ebbd2e676128b42724ebce2084852c"
+    },
+    "email": "isaacrwasserman@gmail.com",
+    "root": "/Users/isaac/Desktop/Thesis/Second Semester/Implementation",
+    "host": "Isaacs-MacBook-Pro-2.local",
+    "username": "isaac",
+    "executable": "/Users/isaac/miniforge3/envs/pytorch/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 653.8255462646484
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

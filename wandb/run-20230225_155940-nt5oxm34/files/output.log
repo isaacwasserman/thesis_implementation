@@ -1,0 +1,2 @@
+
+{'d': 32, 'dropout': 0.4, 'image_size': 512, 'iterations': 200, 'lambda_': 0.2, 'lr': 0.005, 'n_filters': 64, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.7}

@@ -1,0 +1,38 @@
+2023-02-25 16:00:20,154 INFO    Thread-15 (_run_job):63951 [wandb_setup.py:_flush():68] Configure stats pid to 63951
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_setup.py:_flush():68] Loading settings from /Users/isaac/.config/wandb/settings
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_setup.py:_flush():68] Loading settings from /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/settings
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'Graphically Guided Neural EM for Unsupervised Image Segmentation', 'entity': 'isaacwasserman', 'root_dir': '/Users/isaac/Desktop/Thesis/Second Semester/Implementation', 'sweep_id': 'c5amzt3e', 'run_id': 'd0skv75i', 'sweep_param_path': '/Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/sweep-c5amzt3e/config-d0skv75i.yaml'}
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_init.py:_log_setup():492] Logging user logs to /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/run-20230225_160020-d0skv75i/logs/debug.log
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/run-20230225_160020-d0skv75i/logs/debug-internal.log
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x2b350a260>
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():532] calling init triggers
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():538] wandb.init called with sweep_config: {'d': 64, 'dropout': 0.2, 'image_size': 512, 'iterations': 100, 'lambda_': 0.2, 'lr': 0.0005, 'n_filters': 128, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.1}
+config: {}
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():588] starting backend
+2023-02-25 16:00:20,155 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():592] setting up manager
+2023-02-25 16:00:20,161 INFO    Thread-15 (_run_job):63951 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-02-25 16:00:20,163 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():599] backend started and connected
+2023-02-25 16:00:20,166 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_config_callback():1250] config_cb None None {'d': 64, 'dropout': 0.2, 'image_size': 512, 'iterations': 100, 'lambda_': 0.2, 'lr': 0.0005, 'n_filters': 128, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.1}
+2023-02-25 16:00:20,167 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-02-25 16:00:20,167 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-02-25 16:00:20,167 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():687] updated telemetry
+2023-02-25 16:00:20,180 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-25 16:00:20,429 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-25 16:00:20,492 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_on_init():2143] got version response 
+2023-02-25 16:00:20,492 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():775] starting run threads in backend
+2023-02-25 16:00:22,193 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-25 16:00:22,194 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-25 16:00:22,194 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-25 16:00:22,194 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-25 16:00:22,194 INFO    Thread-15 (_run_job):63951 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-25 16:00:22,199 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_finish():1854] finishing run isaacwasserman/Graphically Guided Neural EM for Unsupervised Image Segmentation/d0skv75i
+2023-02-25 16:00:22,199 ERROR   Thread-15 (_run_job):63951 [jupyter.py:save_history():441] Run pip install nbformat to save notebook history
+2023-02-25 16:00:22,199 INFO    Thread-15 (_run_job):63951 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-25 16:00:22,199 INFO    Thread-15 (_run_job):63951 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-02-25 16:00:22,199 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 1
+2023-02-25 16:00:22,199 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_restore():2066] restore
+2023-02-25 16:00:22,199 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_restore():2072] restore done
+2023-02-25 16:00:24,588 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-25 16:00:24,589 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-25 16:00:24,593 INFO    Thread-15 (_run_job):63951 [wandb_run.py:_footer_sync_info():3398] logging synced files
