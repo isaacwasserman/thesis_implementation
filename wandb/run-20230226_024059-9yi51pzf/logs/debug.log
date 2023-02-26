@@ -25,3 +25,13 @@ config: {}
 2023-02-26 02:40:59,543 INFO    Thread-115:65225 [wandb_run.py:_redirect():2034] Wrapping output streams.
 2023-02-26 02:40:59,543 INFO    Thread-115:65225 [wandb_run.py:_redirect():2059] Redirects installed.
 2023-02-26 02:40:59,543 INFO    Thread-115:65225 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-26 02:41:14,441 INFO    Thread-115:65225 [wandb_run.py:_finish():1854] finishing run isaacwasserman/Graphically Guided Neural EM for Unsupervised Image Segmentation/9yi51pzf
+2023-02-26 02:41:14,441 INFO    Thread-115:65225 [jupyter.py:save_history():449] not saving jupyter history
+2023-02-26 02:41:14,441 INFO    Thread-115:65225 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-26 02:41:14,441 INFO    Thread-115:65225 [wandb_init.py:_jupyter_teardown():420] cleaning up jupyter logic
+2023-02-26 02:41:14,441 INFO    Thread-115:65225 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-02-26 02:41:14,441 INFO    Thread-115:65225 [wandb_run.py:_restore():2066] restore
+2023-02-26 02:41:14,441 INFO    Thread-115:65225 [wandb_run.py:_restore():2072] restore done
+2023-02-26 02:41:17,249 INFO    Thread-115:65225 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-26 02:41:17,249 INFO    Thread-115:65225 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-26 02:41:17,252 INFO    Thread-115:65225 [wandb_run.py:_footer_sync_info():3398] logging synced files

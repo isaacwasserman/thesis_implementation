@@ -1,0 +1,18 @@
+Average training time per iteration: 0.022664363384246825
+Average graph cut time: 0.00028186559677124024
+100%|██████████| 1/1 [00:00<00:00, 17.67it/s]
+Average training time per iteration: 0.007756059169769287
+Average graph cut time: 0.0002711296081542969
+100%|██████████| 1/1 [00:00<00:00, 28.96it/s]
+Average training time per iteration: 0.007767095565795899
+Average graph cut time: 0.000271604061126709
+Average training time per iteration: 0.007755827903747558
+Average graph cut time: 0.0002705097198486328
+100%|██████████| 1/1 [00:00<00:00, 28.76it/s]
+Average training time per iteration: 0.007914285659790039
+Average graph cut time: 0.0003557467460632324
+100%|██████████| 1/1 [00:00<00:00, 29.29it/s]
+Average training time per iteration: 0.007929322719573974
+Average graph cut time: 0.0003623318672180176
+100%|██████████| 1/1 [00:00<00:00, 26.22it/s]
+100%|██████████| 1/1 [00:00<00:00, 15.59it/s]
