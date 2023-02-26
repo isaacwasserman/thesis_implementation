@@ -1,0 +1,50 @@
+2023-02-26 14:25:50 INFO Running runs: []
+2023-02-26 14:25:51 INFO Agent received command: run
+2023-02-26 14:25:51 INFO Agent starting run with config:
+	d: 64
+	dropout: 0.3
+	image_size: [512, 512]
+	iterations: 100
+	lambda_: 0.3
+	lr: 0.0005
+	n_filters: 128
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.3
+2023-02-26 14:25:51 INFO About to run command: /usr/bin/env python  --d=64 --dropout=0.3 "--image_size=[512, 512]" --iterations=100 --lambda_=0.3 --lr=0.0005 --n_filters=128 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.3
+2023-02-26 14:25:56 INFO Running runs: ['iouchl7s']
+2023-02-26 14:25:56 INFO Cleaning up finished run: iouchl7s
+2023-02-26 14:25:58 INFO Agent received command: run
+2023-02-26 14:25:58 INFO Agent starting run with config:
+	d: 8
+	dropout: 0.1
+	image_size: [512, 512]
+	iterations: 100
+	lambda_: 0.2
+	lr: 0.01
+	n_filters: 16
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.1
+2023-02-26 14:25:58 INFO About to run command: /usr/bin/env python  --d=8 --dropout=0.1 "--image_size=[512, 512]" --iterations=100 --lambda_=0.2 --lr=0.01 --n_filters=16 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.1
+2023-02-26 14:26:03 INFO Running runs: ['l4ob39lu']
+2023-02-26 14:26:03 INFO Cleaning up finished run: l4ob39lu
+2023-02-26 14:26:03 INFO Agent received command: run
+2023-02-26 14:26:03 INFO Agent starting run with config:
+	d: 32
+	dropout: 0.4
+	image_size: [512, 512]
+	iterations: 100
+	lambda_: 0.5
+	lr: 0.005
+	n_filters: 16
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.1
+2023-02-26 14:26:03 INFO About to run command: /usr/bin/env python  --d=32 --dropout=0.4 "--image_size=[512, 512]" --iterations=100 --lambda_=0.5 --lr=0.005 --n_filters=16 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.1
+2023-02-26 14:26:08 INFO Running runs: ['fowp2f0t']
+2023-02-26 14:26:08 ERROR Detected 3 failed runs in the first 60 seconds, shutting down.
+2023-02-26 14:26:08 INFO To disable this check set WANDB_AGENT_DISABLE_FLAPPING=true

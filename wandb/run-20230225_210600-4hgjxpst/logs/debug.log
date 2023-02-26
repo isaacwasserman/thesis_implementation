@@ -1,0 +1,35 @@
+2023-02-25 21:06:00,458 INFO    Thread-12 (_run_job):86434 [wandb_setup.py:_flush():68] Configure stats pid to 86434
+2023-02-25 21:06:00,458 INFO    Thread-12 (_run_job):86434 [wandb_setup.py:_flush():68] Loading settings from /Users/isaac/.config/wandb/settings
+2023-02-25 21:06:00,458 INFO    Thread-12 (_run_job):86434 [wandb_setup.py:_flush():68] Loading settings from /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/settings
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'notebook_name': 'experiment.ipynb', 'root_dir': '/Users/isaac/Desktop/Thesis/Second Semester/Implementation', 'sweep_id': '4kk1zmgw', 'project': 'Graphically Guided Neural EM for Unsupervised Image Segmentation', 'entity': 'isaacwasserman', 'run_id': '4hgjxpst', 'sweep_param_path': '/Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/sweep-4kk1zmgw/config-4hgjxpst.yaml'}
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_init.py:_log_setup():492] Logging user logs to /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/run-20230225_210600-4hgjxpst/logs/debug.log
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/isaac/Desktop/Thesis/Second Semester/Implementation/wandb/run-20230225_210600-4hgjxpst/logs/debug-internal.log
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():532] calling init triggers
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():538] wandb.init called with sweep_config: {'d': 16, 'dropout': 0.5, 'image_size': [512, 512], 'iterations': 100, 'lambda_': 0.2, 'lr': 0.0001, 'n_filters': 32, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.7}
+config: {}
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():588] starting backend
+2023-02-25 21:06:00,459 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():592] setting up manager
+2023-02-25 21:06:00,465 INFO    Thread-12 (_run_job):86434 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-02-25 21:06:00,468 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():599] backend started and connected
+2023-02-25 21:06:00,471 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_config_callback():1250] config_cb None None {'d': 16, 'dropout': 0.5, 'image_size': [512, 512], 'iterations': 100, 'lambda_': 0.2, 'lr': 0.0001, 'n_filters': 32, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.7}
+2023-02-25 21:06:00,473 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-02-25 21:06:00,474 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():687] updated telemetry
+2023-02-25 21:06:00,494 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-25 21:06:00,902 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-25 21:06:00,997 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_on_init():2143] got version response 
+2023-02-25 21:06:00,998 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():775] starting run threads in backend
+2023-02-25 21:06:03,146 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-25 21:06:03,147 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-25 21:06:03,147 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-25 21:06:03,147 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-25 21:06:03,147 INFO    Thread-12 (_run_job):86434 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-25 21:06:28,062 INFO    MainThread:86434 [jupyter.py:save_ipynb():379] not saving jupyter notebook
+2023-02-25 21:06:28,063 INFO    MainThread:86434 [wandb_init.py:_pause_backend():403] pausing backend
+2023-02-25 21:13:35,167 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_finish():1854] finishing run isaacwasserman/Graphically Guided Neural EM for Unsupervised Image Segmentation/4hgjxpst
+2023-02-25 21:13:35,168 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-02-25 21:13:35,169 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_restore():2066] restore
+2023-02-25 21:13:35,169 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_restore():2072] restore done
+2023-02-25 21:13:42,173 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-25 21:13:42,173 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-25 21:13:42,179 INFO    Thread-12 (_run_job):86434 [wandb_run.py:_footer_sync_info():3398] logging synced files
