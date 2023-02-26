@@ -22,6 +22,7 @@ from skimage import data, segmentation, color
 from skimage.segmentation import slic, mark_boundaries
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 warnings.filterwarnings("ignore")
+from time import time
 
 device = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
 
@@ -253,7 +254,7 @@ class GraphicallyGuidedEMSegmentor:
         self.intermediate_partitions = []
         self.intermediate_probabilities = []
         self.intermediate_graphs = []
-
+        
     def fit(self, image):
         self.losses = []
         self.intermediate_partitions = []
@@ -271,7 +272,10 @@ class GraphicallyGuidedEMSegmentor:
         criterion = nn.BCELoss()
         optimizer = torch.optim.Adam(self.net.parameters(), lr=self.lr)
 
+        itertimes = []
+        graphtimes = []
         for iteration in range(self.iterations):
+            start = time()
             # extract subset of data
             shuffled_idx = torch.randperm(X.shape[0])
             X_shuffled = X[shuffled_idx]
@@ -289,7 +293,9 @@ class GraphicallyGuidedEMSegmentor:
 
             # update y_intermediate
             probabilities = self.net(X).detach().squeeze(1).cpu().numpy()
+            graph_start = time()
             partition, g = graph_cut(self.d, probabilities, self.lambda_)
+            graphtimes.append(time() - graph_start)
             y_intermediate = torch.Tensor(partition).type(torch.float32).to(device).unsqueeze(1)
 
             # save intermediate results
@@ -297,7 +303,25 @@ class GraphicallyGuidedEMSegmentor:
             self.intermediate_partitions.append(partition)
             self.intermediate_probabilities.append(probabilities)
             self.intermediate_graphs.append(g)
+            itertimes.append(time() - start)
+        print("Average training time per iteration:", np.array(itertimes).mean())
+        print("Average graph cut time:", np.array(graphtimes).mean())
+    
+    # @torch.compile
+    def predict_internal(self, all_tiles_ds):
+        batch_size = 4096
+        if device == "cuda":
+            batch_size = 16384
+        loader = torch.utils.data.DataLoader(all_tiles_ds, batch_size=batch_size, shuffle=False)
+        n_batches = len(loader)
 
+        with torch.no_grad():
+            all_tiles_predictions = torch.zeros((len(all_tiles_ds))).to(device)
+            for batch_i, batch in enumerate(loader):
+                batch_predictions = self.net(batch)
+                all_tiles_predictions[batch_i*loader.batch_size:(batch_i+1)*loader.batch_size] = batch_predictions.squeeze(1)
+        return all_tiles_predictions
+                
     def predict(self):
         stride = self.prediction_stride
         image = self.image
@@ -306,15 +330,7 @@ class GraphicallyGuidedEMSegmentor:
 
         all_tiles_ds = TileDS(all_tiles)
 
-        # set up dataloaders
-        loader = torch.utils.data.DataLoader(all_tiles_ds, batch_size=4096, shuffle=False)
-        n_batches = len(loader)
-
-        with torch.no_grad():
-            all_tiles_predictions = torch.zeros((len(all_tiles_ds))).to(device)
-            for batch_i, batch in tqdm(enumerate(loader), total=n_batches):
-                batch_predictions = self.net(batch)
-                all_tiles_predictions[batch_i*loader.batch_size:(batch_i+1)*loader.batch_size] = batch_predictions.squeeze(1)
+        all_tiles_predictions = self.predict_internal(all_tiles_ds)
 
         predictions = all_tiles_predictions.reshape(((self.size[0] - self.tile_size[0]) // stride) + 1, ((self.size[1] - self.tile_size[1]) // stride) + 1)
         pixelwise_probabilities = torch.nn.functional.interpolate(predictions.unsqueeze(0).unsqueeze(0), size=image.shape, mode='bilinear', align_corners=True)
@@ -322,6 +338,11 @@ class GraphicallyGuidedEMSegmentor:
         pixelwise_probabilities /= pixelwise_probabilities.max()
         pixelwise_probabilities *= 255
         pixelwise_probabilities = pixelwise_probabilities.squeeze(0).squeeze(0).cpu().numpy().astype(np.uint8)
+        return pixelwise_probabilities
+    
+    def segment(self):
+        pixelwise_probabilities = self.predict()
+        image = self.image
         grayscale = False
         if 3 not in image.shape:
             grayscale = True
@@ -368,7 +389,7 @@ def generate_complex_image(size=(224, 224), noise=0, seed=None):
     return image, labels
 
 sweep_config = {
-    'method': 'random',
+    'method': 'bayes',
     'metric': {
         'name': 'Avg. F1 Score',
         'goal': 'maximize'
@@ -433,7 +454,7 @@ def run_experiment(config=None):
             f1_scores[image_index] = report["weighted avg"]["f1-score"]
         wandb.log({"Avg. F1 Score": f1_scores.mean()})
 
+# set environment variable
 os.environ["WANDB_NOTEBOOK_NAME"] = "experiment.ipynb"
-# sweep_id = wandb.sweep(sweep_config, project="Graphically Guided Neural EM for Unsupervised Image Segmentation")
-sweep_id = "4kk1zmgw"
-wandb.agent(sweep_id, run_experiment, count=5)
+sweep_id = wandb.sweep(sweep_config, project="Graphically Guided Neural EM for Unsupervised Image Segmentation")
+wandb.agent(sweep_id, run_experiment, count=100)
