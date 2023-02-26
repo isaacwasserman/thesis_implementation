@@ -1,0 +1,5 @@
+Average training time per iteration: 0.0321497118473053
+Average graph cut time: 0.0020787209272384644
+Average training time per iteration: 0.03218690693378448
+Average graph cut time: 0.0019836175441741944
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.

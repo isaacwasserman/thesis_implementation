@@ -23,3 +23,10 @@ config: {}
 2023-02-26 17:40:15,794 INFO    Thread-16 :68293 [wandb_run.py:_redirect():2034] Wrapping output streams.
 2023-02-26 17:40:15,794 INFO    Thread-16 :68293 [wandb_run.py:_redirect():2059] Redirects installed.
 2023-02-26 17:40:15,795 INFO    Thread-16 :68293 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-26 17:40:28,139 INFO    Thread-16 :68293 [wandb_run.py:_finish():1854] finishing run isaacwasserman/Graphically Guided Neural EM for Unsupervised Image Segmentation/26ysys5r
+2023-02-26 17:40:28,140 INFO    Thread-16 :68293 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-02-26 17:40:28,140 INFO    Thread-16 :68293 [wandb_run.py:_restore():2066] restore
+2023-02-26 17:40:28,140 INFO    Thread-16 :68293 [wandb_run.py:_restore():2072] restore done
+2023-02-26 17:40:31,480 INFO    Thread-16 :68293 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-26 17:40:31,480 INFO    Thread-16 :68293 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-26 17:40:31,482 INFO    Thread-16 :68293 [wandb_run.py:_footer_sync_info():3398] logging synced files

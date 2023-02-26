@@ -1,0 +1,50 @@
+{
+    "os": "Linux-5.15.0-52-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-02-26T20:00:28.078215",
+    "startedAt": "2023-02-26T20:00:27.794297",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--d=32",
+        "--dropout=0.1",
+        "--image_size=[512, 512]",
+        "--iterations=400",
+        "--lambda_=0.1",
+        "--lr=0.0005",
+        "--n_filters=64",
+        "--noise=0",
+        "--prediction_stride=4",
+        "--seed=0",
+        "--subset_size=0.5"
+    ],
+    "state": "running",
+    "program": "experiment.py",
+    "codePath": "experiment.py",
+    "git": {
+        "remote": "https://github.com/isaacwasserman/thesis_implementation",
+        "commit": "3937b5a2b5cddfb17c47d49c0d8907b644cdc9cb"
+    },
+    "email": "isaacrwasserman@gmail.com",
+    "root": "/home/ubuntu/thesis_implementation",
+    "host": "192-9-144-121",
+    "username": "ubuntu",
+    "executable": "/usr/bin/python",
+    "cpu_count": 30,
+    "cpu_count_logical": 30,
+    "disk": {
+        "total": 1356.6585998535156,
+        "used": 20.882854461669922
+    },
+    "gpu": "NVIDIA A10",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A10",
+            "memory_total": 24146608128
+        }
+    ],
+    "memory": {
+        "total": 196.58040237426758
+    }
+}

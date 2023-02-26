@@ -1,0 +1,28 @@
+program: experiment.py
+method: random
+metric:
+  name: Avg. F1 Score
+  goal: maximize
+parameters:
+    d:
+        values: [8, 16, 32, 64]
+    n_filters:
+        values: [16, 32, 64, 128]
+    dropout:
+        values: [0.1, 0.2, 0.3, 0.4, 0.5]
+    lambda_:
+        values: [0.1, 0.2, 0.3, 0.4, 0.5]
+    lr:
+        values: [0.0001, 0.0005, 0.001, 0.005, 0.01]
+    iterations:
+        values: [100, 200, 300, 400, 500]
+    subset_size:
+        values: [0.1, 0.3, 0.5, 0.7]
+    prediction_stride:
+        value: 4
+    image_size:
+        value: [512, 512]
+    noise:
+        value: 0
+    seed:
+        value: 0

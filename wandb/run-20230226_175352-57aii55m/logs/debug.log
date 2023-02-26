@@ -1,0 +1,32 @@
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_setup.py:_flush():68] Configure stats pid to 71844
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_setup.py:_flush():68] Loading settings from /home/ubuntu/.config/wandb/settings
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_setup.py:_flush():68] Loading settings from /home/ubuntu/thesis_implementation/wandb/settings
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'notebook_name': 'experiment.ipynb', 'project': 'Graphically Guided Neural EM for Unsupervised Image Segmentation', 'entity': 'isaacwasserman', 'root_dir': '/home/ubuntu/thesis_implementation', 'run_id': '57aii55m', 'sweep_param_path': '/home/ubuntu/thesis_implementation/wandb/sweep-jijus0xz/config-57aii55m.yaml', 'sweep_id': 'jijus0xz'}
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'experiment.py', 'program': 'experiment.py'}
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_init.py:_log_setup():492] Logging user logs to /home/ubuntu/thesis_implementation/wandb/run-20230226_175352-57aii55m/logs/debug.log
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_init.py:_log_setup():493] Logging internal logs to /home/ubuntu/thesis_implementation/wandb/run-20230226_175352-57aii55m/logs/debug-internal.log
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_init.py:init():532] calling init triggers
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_init.py:init():538] wandb.init called with sweep_config: {'d': 32, 'dropout': 0.5, 'image_size': [512, 512], 'iterations': 200, 'lambda_': 0.4, 'lr': 0.005, 'n_filters': 128, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.1}
+config: {}
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_init.py:init():588] starting backend
+2023-02-26 17:53:52,045 INFO    Thread-37 :71844 [wandb_init.py:init():592] setting up manager
+2023-02-26 17:53:52,049 INFO    Thread-37 :71844 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-26 17:53:52,051 INFO    Thread-37 :71844 [wandb_init.py:init():599] backend started and connected
+2023-02-26 17:53:52,054 INFO    Thread-37 :71844 [wandb_run.py:_config_callback():1250] config_cb None None {'d': 32, 'dropout': 0.5, 'image_size': [512, 512], 'iterations': 200, 'lambda_': 0.4, 'lr': 0.005, 'n_filters': 128, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.1}
+2023-02-26 17:53:52,055 INFO    Thread-37 :71844 [wandb_init.py:init():687] updated telemetry
+2023-02-26 17:53:52,121 INFO    Thread-37 :71844 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-26 17:53:52,304 INFO    Thread-37 :71844 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-26 17:53:52,324 INFO    Thread-37 :71844 [wandb_run.py:_on_init():2143] got version response 
+2023-02-26 17:53:52,324 INFO    Thread-37 :71844 [wandb_init.py:init():775] starting run threads in backend
+2023-02-26 17:53:52,407 INFO    Thread-37 :71844 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-26 17:53:52,407 INFO    Thread-37 :71844 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-26 17:53:52,407 INFO    Thread-37 :71844 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-26 17:53:52,407 INFO    Thread-37 :71844 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-26 17:53:52,407 INFO    Thread-37 :71844 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-26 17:54:15,400 INFO    Thread-37 :71844 [wandb_run.py:_finish():1854] finishing run isaacwasserman/Graphically Guided Neural EM for Unsupervised Image Segmentation/57aii55m
+2023-02-26 17:54:15,400 INFO    Thread-37 :71844 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-02-26 17:54:15,401 INFO    Thread-37 :71844 [wandb_run.py:_restore():2066] restore
+2023-02-26 17:54:15,401 INFO    Thread-37 :71844 [wandb_run.py:_restore():2072] restore done
+2023-02-26 17:54:18,360 INFO    Thread-37 :71844 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-26 17:54:18,360 INFO    Thread-37 :71844 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-26 17:54:18,361 INFO    Thread-37 :71844 [wandb_run.py:_footer_sync_info():3398] logging synced files

@@ -1,0 +1,128 @@
+2023-02-26 19:58:17 INFO Running runs: []
+2023-02-26 19:58:17 INFO Agent received command: run
+2023-02-26 19:58:17 INFO Agent starting run with config:
+	d: 32
+	dropout: 0.4
+	image_size: [512, 512]
+	iterations: 500
+	lambda_: 0.5
+	lr: 0.0001
+	n_filters: 64
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.3
+2023-02-26 19:58:17 INFO About to run command: /usr/bin/env python experiment.py --d=32 --dropout=0.4 "--image_size=[512, 512]" --iterations=500 --lambda_=0.5 --lr=0.0001 --n_filters=64 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.3
+2023-02-26 19:58:22 INFO Running runs: ['b8sl7gse']
+2023-02-26 19:58:33 INFO Cleaning up finished run: b8sl7gse
+2023-02-26 19:58:37 INFO Agent received command: run
+2023-02-26 19:58:37 INFO Agent starting run with config:
+	d: 16
+	dropout: 0.2
+	image_size: [512, 512]
+	iterations: 300
+	lambda_: 0.3
+	lr: 0.001
+	n_filters: 128
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.5
+2023-02-26 19:58:37 INFO About to run command: /usr/bin/env python experiment.py --d=16 --dropout=0.2 "--image_size=[512, 512]" --iterations=300 --lambda_=0.3 --lr=0.001 --n_filters=128 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.5
+2023-02-26 19:58:42 INFO Running runs: ['jt5vch7r']
+2023-02-26 19:58:57 INFO Cleaning up finished run: jt5vch7r
+2023-02-26 19:58:57 INFO Agent received command: run
+2023-02-26 19:58:57 INFO Agent starting run with config:
+	d: 64
+	dropout: 0.3
+	image_size: [512, 512]
+	iterations: 300
+	lambda_: 0.1
+	lr: 0.01
+	n_filters: 64
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.7
+2023-02-26 19:58:57 INFO About to run command: /usr/bin/env python experiment.py --d=64 --dropout=0.3 "--image_size=[512, 512]" --iterations=300 --lambda_=0.1 --lr=0.01 --n_filters=64 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.7
+2023-02-26 19:59:02 INFO Running runs: ['l2n1a94k']
+2023-02-26 19:59:18 INFO Cleaning up finished run: l2n1a94k
+2023-02-26 19:59:18 INFO Agent received command: run
+2023-02-26 19:59:18 INFO Agent starting run with config:
+	d: 16
+	dropout: 0.1
+	image_size: [512, 512]
+	iterations: 300
+	lambda_: 0.4
+	lr: 0.0001
+	n_filters: 32
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.1
+2023-02-26 19:59:18 INFO About to run command: /usr/bin/env python experiment.py --d=16 --dropout=0.1 "--image_size=[512, 512]" --iterations=300 --lambda_=0.4 --lr=0.0001 --n_filters=32 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.1
+2023-02-26 19:59:23 INFO Running runs: ['rb3mvphu']
+2023-02-26 19:59:33 INFO Cleaning up finished run: rb3mvphu
+2023-02-26 19:59:34 INFO Agent received command: run
+2023-02-26 19:59:34 INFO Agent starting run with config:
+	d: 64
+	dropout: 0.5
+	image_size: [512, 512]
+	iterations: 200
+	lambda_: 0.1
+	lr: 0.0005
+	n_filters: 32
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.5
+2023-02-26 19:59:34 INFO About to run command: /usr/bin/env python experiment.py --d=64 --dropout=0.5 "--image_size=[512, 512]" --iterations=200 --lambda_=0.1 --lr=0.0005 --n_filters=32 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.5
+2023-02-26 19:59:39 INFO Running runs: ['4bfcyswf']
+2023-02-26 19:59:54 INFO Cleaning up finished run: 4bfcyswf
+2023-02-26 19:59:54 INFO Agent received command: run
+2023-02-26 19:59:54 INFO Agent starting run with config:
+	d: 8
+	dropout: 0.3
+	image_size: [512, 512]
+	iterations: 400
+	lambda_: 0.4
+	lr: 0.001
+	n_filters: 64
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.3
+2023-02-26 19:59:54 INFO About to run command: /usr/bin/env python experiment.py --d=8 --dropout=0.3 "--image_size=[512, 512]" --iterations=400 --lambda_=0.4 --lr=0.001 --n_filters=64 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.3
+2023-02-26 19:59:59 INFO Running runs: ['l2mu1k3y']
+2023-02-26 20:00:09 INFO Cleaning up finished run: l2mu1k3y
+2023-02-26 20:00:09 INFO Agent received command: run
+2023-02-26 20:00:09 INFO Agent starting run with config:
+	d: 16
+	dropout: 0.2
+	image_size: [512, 512]
+	iterations: 500
+	lambda_: 0.5
+	lr: 0.0005
+	n_filters: 32
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.5
+2023-02-26 20:00:09 INFO About to run command: /usr/bin/env python experiment.py --d=16 --dropout=0.2 "--image_size=[512, 512]" --iterations=500 --lambda_=0.5 --lr=0.0005 --n_filters=32 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.5
+2023-02-26 20:00:14 INFO Running runs: ['vj3xs6si']
+2023-02-26 20:00:24 INFO Cleaning up finished run: vj3xs6si
+2023-02-26 20:00:25 INFO Agent received command: run
+2023-02-26 20:00:25 INFO Agent starting run with config:
+	d: 32
+	dropout: 0.1
+	image_size: [512, 512]
+	iterations: 400
+	lambda_: 0.1
+	lr: 0.0005
+	n_filters: 64
+	noise: 0
+	prediction_stride: 4
+	seed: 0
+	subset_size: 0.5
+2023-02-26 20:00:25 INFO About to run command: /usr/bin/env python experiment.py --d=32 --dropout=0.1 "--image_size=[512, 512]" --iterations=400 --lambda_=0.1 --lr=0.0005 --n_filters=64 --noise=0 --prediction_stride=4 --seed=0 --subset_size=0.5
+2023-02-26 20:00:30 INFO Running runs: ['yvt2rgtp']

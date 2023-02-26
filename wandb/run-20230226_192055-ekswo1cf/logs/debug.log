@@ -1,0 +1,69 @@
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_setup.py:_flush():68] Configure stats pid to 82538
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_setup.py:_flush():68] Loading settings from /home/ubuntu/.config/wandb/settings
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_setup.py:_flush():68] Loading settings from /home/ubuntu/thesis_implementation/wandb/settings
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'notebook_name': 'experiment.ipynb', 'project': 'Graphically Guided Neural EM for Unsupervised Image Segmentation', 'entity': 'isaacwasserman', 'root_dir': '/home/ubuntu/thesis_implementation', 'run_id': 'ekswo1cf', 'sweep_param_path': '/home/ubuntu/thesis_implementation/wandb/sweep-sadsuqsy/config-ekswo1cf.yaml', 'sweep_id': 'sadsuqsy'}
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'experiment.py', 'program': 'experiment.py'}
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_init.py:_log_setup():492] Logging user logs to /home/ubuntu/thesis_implementation/wandb/run-20230226_192055-ekswo1cf/logs/debug.log
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_init.py:_log_setup():493] Logging internal logs to /home/ubuntu/thesis_implementation/wandb/run-20230226_192055-ekswo1cf/logs/debug-internal.log
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_init.py:init():532] calling init triggers
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_init.py:init():538] wandb.init called with sweep_config: {'d': 32, 'dropout': 0.4, 'image_size': [512, 512], 'iterations': 200, 'lambda_': 0.3, 'lr': 0.005, 'n_filters': 64, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.3}
+config: {}
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_init.py:init():588] starting backend
+2023-02-26 19:20:55,121 INFO    Thread-148:82538 [wandb_init.py:init():592] setting up manager
+2023-02-26 19:20:55,125 INFO    Thread-148:82538 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-26 19:20:55,127 INFO    Thread-148:82538 [wandb_init.py:init():599] backend started and connected
+2023-02-26 19:20:55,130 INFO    Thread-148:82538 [wandb_run.py:_config_callback():1250] config_cb None None {'d': 32, 'dropout': 0.4, 'image_size': [512, 512], 'iterations': 200, 'lambda_': 0.3, 'lr': 0.005, 'n_filters': 64, 'noise': 0, 'prediction_stride': 4, 'seed': 0, 'subset_size': 0.3}
+2023-02-26 19:20:55,131 INFO    Thread-148:82538 [wandb_init.py:init():687] updated telemetry
+2023-02-26 19:20:55,206 INFO    Thread-148:82538 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-26 19:20:55,387 INFO    Thread-148:82538 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-26 19:20:55,412 INFO    Thread-148:82538 [wandb_run.py:_on_init():2143] got version response 
+2023-02-26 19:20:55,412 INFO    Thread-148:82538 [wandb_init.py:init():775] starting run threads in backend
+2023-02-26 19:20:55,494 INFO    Thread-148:82538 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-26 19:20:55,494 INFO    Thread-148:82538 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-26 19:20:55,494 INFO    Thread-148:82538 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-26 19:20:55,494 INFO    Thread-148:82538 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-26 19:20:55,495 INFO    Thread-148:82538 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-26 19:20:57,681 INFO    Thread-148:82538 [wandb_run.py:_finish():1854] finishing run isaacwasserman/Graphically Guided Neural EM for Unsupervised Image Segmentation/ekswo1cf
+2023-02-26 19:20:57,681 INFO    Thread-148:82538 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 1
+2023-02-26 19:20:57,681 INFO    Thread-148:82538 [wandb_run.py:_restore():2066] restore
+2023-02-26 19:20:57,681 INFO    Thread-148:82538 [wandb_run.py:_restore():2072] restore done
+2023-02-26 19:20:59,682 INFO    Thread-148:82538 [wandb_run.py:_restore():2066] restore
+2023-02-26 19:20:59,683 INFO    Thread-148:82538 [wandb_run.py:_restore():2072] restore done
+2023-02-26 19:21:00,685 ERROR   Thread-148:82538 [wandb_run.py:_atexit_cleanup():2104] Problem finishing run
+Traceback (most recent call last):
+  File "experiment.py", line 452, in run_experiment
+    segmentation = segmentor.predict()
+  File "experiment.py", line 333, in predict
+    all_tiles_predictions = self.predict_internal(all_tiles_ds)
+  File "experiment.py", line 321, in predict_internal
+    batch_predictions = self.net(batch)
+  File "/usr/lib/python3/dist-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "experiment.py", line 221, in forward
+    x = self.conv1(x)
+  File "/usr/lib/python3/dist-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/usr/lib/python3/dist-packages/torch/nn/modules/conv.py", line 457, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/usr/lib/python3/dist-packages/torch/nn/modules/conv.py", line 453, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: CUDA out of memory. Tried to allocate 978.00 MiB (GPU 0; 22.06 GiB total capacity; 19.31 GiB already allocated; 390.38 MiB free; 20.01 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2092, in _atexit_cleanup
+    self._on_finish()
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2326, in _on_finish
+    _ = exit_handle.wait(timeout=-1, on_progress=self._on_progress_exit)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 273, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 120, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/ubuntu/.local/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 116, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception
