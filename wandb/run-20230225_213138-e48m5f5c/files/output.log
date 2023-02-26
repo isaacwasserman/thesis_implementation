@@ -1,0 +1,1224 @@
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 8.82 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 3.81 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 6.91 µs
+CPU times: user 1 µs, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.1 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.29 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.2 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 2.86 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 3.81 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 7.15 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 12.2 µs
+CPU times: user 7 µs, sys: 2 µs, total: 9 µs
+Wall time: 16.2 µs
+CPU times: user 18 µs, sys: 23 µs, total: 41 µs
+Wall time: 94.2 µs
+CPU times: user 11 µs, sys: 2 µs, total: 13 µs
+Wall time: 22.2 µs
+CPU times: user 9 µs, sys: 2 µs, total: 11 µs
+Wall time: 19.1 µs
+CPU times: user 10 µs, sys: 1e+03 ns, total: 11 µs
+Wall time: 18.1 µs
+CPU times: user 10 µs, sys: 2 µs, total: 12 µs
+Wall time: 20 µs
+CPU times: user 9 µs, sys: 2 µs, total: 11 µs
+Wall time: 19.1 µs
+CPU times: user 13 µs, sys: 2 µs, total: 15 µs
+Wall time: 24.1 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11 µs
+CPU times: user 10 µs, sys: 1e+03 ns, total: 11 µs
+Wall time: 20 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11 µs
+CPU times: user 8 µs, sys: 2 µs, total: 10 µs
+Wall time: 16 µs
+CPU times: user 7 µs, sys: 2 µs, total: 9 µs
+Wall time: 14.8 µs
+CPU times: user 11 µs, sys: 2 µs, total: 13 µs
+Wall time: 20 µs
+CPU times: user 10 µs, sys: 1e+03 ns, total: 11 µs
+Wall time: 18.8 µs
+CPU times: user 8 µs, sys: 2 µs, total: 10 µs
+Wall time: 17.2 µs
+CPU times: user 8 µs, sys: 1 µs, total: 9 µs
+Wall time: 16.9 µs
+CPU times: user 10 µs, sys: 2 µs, total: 12 µs
+Wall time: 19.8 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 12.6 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 11.2 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 2.86 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.29 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 8.11 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 3 µs, total: 5 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.72 µs
+CPU times: user 10 µs, sys: 2 µs, total: 12 µs
+Wall time: 19.1 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 11.9 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 16.2 µs
+CPU times: user 10 µs, sys: 1 µs, total: 11 µs
+Wall time: 20 µs
+CPU times: user 7 µs, sys: 2 µs, total: 9 µs
+Wall time: 16 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 4.05 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 6.2 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 8.11 µs
+CPU times: user 4 µs, sys: 1e+03 ns, total: 5 µs
+Wall time: 9.06 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11.2 µs
+CPU times: user 9 µs, sys: 3 µs, total: 12 µs
+Wall time: 16.9 µs
+CPU times: user 9 µs, sys: 2 µs, total: 11 µs
+Wall time: 207 µs
+CPU times: user 7 µs, sys: 1 µs, total: 8 µs
+Wall time: 14.8 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11.2 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 17.9 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 10 µs
+CPU times: user 8 µs, sys: 1e+03 ns, total: 9 µs
+Wall time: 15 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+
+
+
+100%|██████████| 4/4 [00:13<00:00,  3.32s/it]
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 4 µs, sys: 1e+03 ns, total: 5 µs
+Wall time: 10 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10.3 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11.2 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 14.1 µs
+CPU times: user 6 µs, sys: 3 µs, total: 9 µs
+Wall time: 16.2 µs
+CPU times: user 11 µs, sys: 2 µs, total: 13 µs
+Wall time: 20.3 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 11 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 13.1 µs
+CPU times: user 5 µs, sys: 1 µs, total: 6 µs
+Wall time: 13.1 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11.9 µs
+CPU times: user 7 µs, sys: 1e+03 ns, total: 8 µs
+Wall time: 16 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 10 µs
+CPU times: user 9 µs, sys: 6 µs, total: 15 µs
+Wall time: 71 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 10.3 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 11.2 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 7.87 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 7.87 µs
+CPU times: user 4 µs, sys: 1e+03 ns, total: 5 µs
+Wall time: 6.91 µs
+CPU times: user 6 µs, sys: 1e+03 ns, total: 7 µs
+Wall time: 11 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 8.11 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 1 µs, sys: 1 µs, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 7.87 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.25 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 2 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 7.15 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 5 µs, sys: 1 µs, total: 6 µs
+Wall time: 11 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.29 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 7.15 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 8.11 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 8.34 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 8.82 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 8.82 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 7.87 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 11 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 3.1 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+  0%|          | 0/4 [00:00<?, ?it/s]
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+
+
+
+
+100%|██████████| 4/4 [00:14<00:00,  3.63s/it]
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 8.11 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 7.15 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11.2 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 12.9 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 12.2 µs
+CPU times: user 8 µs, sys: 1 µs, total: 9 µs
+Wall time: 16.7 µs
+CPU times: user 11 µs, sys: 2 µs, total: 13 µs
+Wall time: 21 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 12.2 µs
+CPU times: user 11 µs, sys: 2 µs, total: 13 µs
+Wall time: 22.2 µs
+CPU times: user 8 µs, sys: 1 µs, total: 9 µs
+Wall time: 18.1 µs
+CPU times: user 14 µs, sys: 2 µs, total: 16 µs
+Wall time: 26.2 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 12.2 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11.9 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11.7 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 13.1 µs
+CPU times: user 9 µs, sys: 3 µs, total: 12 µs
+Wall time: 20 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 9.78 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 7.87 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 9.06 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 7.15 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 8.82 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 7.15 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.29 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.96 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 10 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 5 µs, sys: 1 µs, total: 6 µs
+Wall time: 11 µs
+CPU times: user 6 µs, sys: 1 µs, total: 7 µs
+Wall time: 12.9 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 9.78 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 10.3 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 7.87 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.91 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 12.2 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.91 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 6.91 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 4 µs, sys: 1e+03 ns, total: 5 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 9.78 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 6.91 µs
+CPU times: user 6 µs, sys: 1 µs, total: 7 µs
+Wall time: 12.2 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 7.87 µs
+CPU times: user 4 µs, sys: 1 µs, total: 5 µs
+Wall time: 10 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.91 µs
+ 25%|██▌       | 1/4 [00:00<00:02,  1.39it/s]
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+
+
+
+100%|██████████| 4/4 [00:15<00:00,  3.89s/it]
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.05 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.1 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 1 µs, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 7.15 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1 µs, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 3.1 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 3.1 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 1 µs, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1 µs, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 7.15 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.29 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 2.86 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.05 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 1 µs, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 5 µs, sys: 1 µs, total: 6 µs
+Wall time: 7.87 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+ 25%|██▌       | 1/4 [00:00<00:02,  1.42it/s]
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.29 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+
+ 25%|██▌       | 1/4 [00:00<00:02,  1.42it/s][34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+The line_profiler extension is already loaded. To reload it, use:
+  %reload_ext line_profiler
+
+
+100%|██████████| 4/4 [00:22<00:00,  5.67s/it]
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 2.86 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 4.29 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.29 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.1 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.1 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 2.86 µs
+CPU times: user 1e+03 ns, sys: 1 µs, total: 2 µs
+Wall time: 3.1 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 2.62 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 3.1 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 3.1 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 3.1 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 4.29 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 2.86 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.2 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 7.15 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 9.78 µs
+CPU times: user 10 µs, sys: 2 µs, total: 12 µs
+Wall time: 21 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11.9 µs
+CPU times: user 9 µs, sys: 1 µs, total: 10 µs
+Wall time: 18.1 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11.9 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11 µs
+CPU times: user 7 µs, sys: 2 µs, total: 9 µs
+Wall time: 16.2 µs
+CPU times: user 11 µs, sys: 1 µs, total: 12 µs
+Wall time: 20 µs
+CPU times: user 11 µs, sys: 1e+03 ns, total: 12 µs
+Wall time: 20 µs
+CPU times: user 6 µs, sys: 1 µs, total: 7 µs
+Wall time: 12.9 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11.9 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 12.9 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 13.8 µs
+CPU times: user 12 µs, sys: 2 µs, total: 14 µs
+Wall time: 21.9 µs
+CPU times: user 9 µs, sys: 1e+03 ns, total: 10 µs
+Wall time: 21 µs
+CPU times: user 19 µs, sys: 2 µs, total: 21 µs
+Wall time: 29.8 µs
+CPU times: user 10 µs, sys: 2 µs, total: 12 µs
+Wall time: 18.1 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 11.9 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 13.8 µs
+CPU times: user 11 µs, sys: 1 µs, total: 12 µs
+Wall time: 21.9 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 11 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 2 µs, sys: 6 µs, total: 8 µs
+Wall time: 11 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1e+03 ns, sys: 1e+03 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+  0%|          | 0/4 [00:00<?, ?it/s]
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+
+
+
+
+100%|██████████| 4/4 [00:15<00:00,  3.86s/it]
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 7.15 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 9.06 µs
+CPU times: user 3 µs, sys: 2 µs, total: 5 µs
+Wall time: 10 µs
+CPU times: user 11 µs, sys: 2 µs, total: 13 µs
+Wall time: 21.9 µs
+CPU times: user 9 µs, sys: 1e+03 ns, total: 10 µs
+Wall time: 19.1 µs
+CPU times: user 12 µs, sys: 2 µs, total: 14 µs
+Wall time: 22.9 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 12.2 µs
+CPU times: user 8 µs, sys: 2 µs, total: 10 µs
+Wall time: 16 µs
+CPU times: user 7 µs, sys: 2 µs, total: 9 µs
+Wall time: 16.9 µs
+CPU times: user 4 µs, sys: 1e+03 ns, total: 5 µs
+Wall time: 11.2 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 8.82 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 11.9 µs
+CPU times: user 11 µs, sys: 2 µs, total: 13 µs
+Wall time: 21 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 13.8 µs
+CPU times: user 9 µs, sys: 1e+03 ns, total: 10 µs
+Wall time: 18.1 µs
+CPU times: user 6 µs, sys: 2 µs, total: 8 µs
+Wall time: 15 µs
+CPU times: user 6 µs, sys: 3 µs, total: 9 µs
+Wall time: 15 µs
+CPU times: user 9 µs, sys: 2 µs, total: 11 µs
+Wall time: 16 µs
+CPU times: user 11 µs, sys: 1 µs, total: 12 µs
+Wall time: 18.8 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 12.2 µs
+CPU times: user 5 µs, sys: 2 µs, total: 7 µs
+Wall time: 11.9 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10 µs
+CPU times: user 5 µs, sys: 1e+03 ns, total: 6 µs
+Wall time: 10 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10 µs
+CPU times: user 4 µs, sys: 2 µs, total: 6 µs
+Wall time: 10 µs
+CPU times: user 3 µs, sys: 1 µs, total: 4 µs
+Wall time: 9.06 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 8.11 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 8.82 µs
+CPU times: user 2 µs, sys: 2 µs, total: 4 µs
+Wall time: 7.15 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 1e+03 ns, sys: 0 ns, total: 1e+03 ns
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 6 µs, sys: 0 ns, total: 6 µs
+Wall time: 8.82 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 6.91 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.72 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.96 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.01 µs
+CPU times: user 3 µs, sys: 0 ns, total: 3 µs
+Wall time: 5.72 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 1 µs, sys: 0 ns, total: 1 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 4.05 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.01 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 3.81 µs
+CPU times: user 2 µs, sys: 0 ns, total: 2 µs
+Wall time: 5.25 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 3 µs, sys: 1e+03 ns, total: 4 µs
+Wall time: 6.2 µs
+CPU times: user 2 µs, sys: 1 µs, total: 3 µs
+Wall time: 4.77 µs
+CPU times: user 2 µs, sys: 1e+03 ns, total: 3 µs
+Wall time: 5.25 µs
+
+
+
+100%|██████████| 4/4 [00:14<00:00,  3.65s/it]
