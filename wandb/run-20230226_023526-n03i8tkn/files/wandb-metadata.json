@@ -1,0 +1,37 @@
+{
+    "os": "Linux-5.15.0-52-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-02-26T02:35:26.949746",
+    "startedAt": "2023-02-26T02:35:26.543686",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "experiment.ipynb",
+    "git": {
+        "remote": "https://github.com/isaacwasserman/thesis_implementation",
+        "commit": "1c6e7c3016e957bd6b71adc1c29d3cf44dcf5c2b"
+    },
+    "email": null,
+    "root": "/home/ubuntu/thesis_implementation",
+    "host": "138-2-238-112",
+    "username": "ubuntu",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 30,
+    "cpu_count_logical": 30,
+    "disk": {
+        "total": 1356.6585998535156,
+        "used": 19.676502227783203
+    },
+    "gpu": "NVIDIA A10",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A10",
+            "memory_total": 24146608128
+        }
+    ],
+    "memory": {
+        "total": 196.58040237426758
+    }
+}

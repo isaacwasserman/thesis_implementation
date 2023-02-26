@@ -1,0 +1,26 @@
+wandb_version: 1
+
+d:
+  value: 8
+dropout:
+  value: 0.1
+image_size:
+  value:
+  - 512
+  - 512
+iterations:
+  value: 100
+lambda_:
+  value: 0.2
+lr:
+  value: 0.001
+n_filters:
+  value: 128
+noise:
+  value: 0
+prediction_stride:
+  value: 4
+seed:
+  value: 0
+subset_size:
+  value: 0.7

@@ -1,0 +1,45 @@
+2023-02-26 02:40:59,073 INFO    StreamThr :70358 [internal.py:wandb_internal():87] W&B internal server running at pid: 70358, started at: 2023-02-26 02:40:59.072613
+2023-02-26 02:40:59,074 DEBUG   HandlerThread:70358 [handler.py:handle_request():144] handle_request: status
+2023-02-26 02:40:59,097 INFO    WriterThread:70358 [datastore.py:open_for_write():85] open: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/run-9yi51pzf.wandb
+2023-02-26 02:40:59,097 DEBUG   SenderThread:70358 [sender.py:send():336] send: header
+2023-02-26 02:40:59,195 DEBUG   SenderThread:70358 [sender.py:send():336] send: run
+2023-02-26 02:40:59,412 DEBUG   HandlerThread:70358 [handler.py:handle_request():144] handle_request: check_version
+2023-02-26 02:40:59,413 INFO    SenderThread:70358 [dir_watcher.py:__init__():216] watching files in: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/files
+2023-02-26 02:40:59,413 INFO    SenderThread:70358 [sender.py:_start_run_threads():1067] run started: 9yi51pzf with start time 1677379259.074396
+2023-02-26 02:40:59,413 DEBUG   SenderThread:70358 [sender.py:send_request():363] send_request: summary_record
+2023-02-26 02:40:59,413 INFO    SenderThread:70358 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-26 02:40:59,413 DEBUG   SenderThread:70358 [sender.py:send_request():363] send_request: check_version
+2023-02-26 02:40:59,489 DEBUG   HandlerThread:70358 [handler.py:handle_request():144] handle_request: run_start
+2023-02-26 02:40:59,496 DEBUG   HandlerThread:70358 [system_info.py:__init__():31] System info init
+2023-02-26 02:40:59,497 DEBUG   HandlerThread:70358 [system_info.py:__init__():46] System info init done
+2023-02-26 02:40:59,497 INFO    HandlerThread:70358 [system_monitor.py:start():151] Starting system monitor
+2023-02-26 02:40:59,497 INFO    SystemMonitor:70358 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-26 02:40:59,497 INFO    HandlerThread:70358 [system_monitor.py:probe():172] Collecting system info
+2023-02-26 02:40:59,497 INFO    SystemMonitor:70358 [interfaces.py:start():168] Started cpu
+2023-02-26 02:40:59,498 INFO    SystemMonitor:70358 [interfaces.py:start():168] Started disk
+2023-02-26 02:40:59,498 INFO    SystemMonitor:70358 [interfaces.py:start():168] Started gpu
+2023-02-26 02:40:59,498 INFO    SystemMonitor:70358 [interfaces.py:start():168] Started memory
+2023-02-26 02:40:59,499 INFO    SystemMonitor:70358 [interfaces.py:start():168] Started network
+2023-02-26 02:40:59,507 DEBUG   HandlerThread:70358 [system_info.py:probe():195] Probing system
+2023-02-26 02:40:59,513 DEBUG   HandlerThread:70358 [system_info.py:_probe_git():180] Probing git
+2023-02-26 02:40:59,522 DEBUG   HandlerThread:70358 [system_info.py:_probe_git():188] Probing git done
+2023-02-26 02:40:59,522 DEBUG   HandlerThread:70358 [system_info.py:probe():241] Probing system done
+2023-02-26 02:40:59,522 DEBUG   HandlerThread:70358 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-52-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-02-26T02:40:59.507733', 'startedAt': '2023-02-26T02:40:59.063529', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'experiment.ipynb', 'git': {'remote': 'https://github.com/isaacwasserman/thesis_implementation', 'commit': '1c6e7c3016e957bd6b71adc1c29d3cf44dcf5c2b'}, 'email': None, 'root': '/home/ubuntu/thesis_implementation', 'host': '138-2-238-112', 'username': 'ubuntu', 'executable': '/usr/bin/python3', 'cpu_count': 30, 'cpu_count_logical': 30, 'disk': {'total': 1356.6585998535156, 'used': 19.67739486694336}, 'gpu': 'NVIDIA A10', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA A10', 'memory_total': 24146608128}], 'memory': {'total': 196.58040237426758}}
+2023-02-26 02:40:59,522 INFO    HandlerThread:70358 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-26 02:40:59,522 INFO    HandlerThread:70358 [system_monitor.py:probe():185] Publishing system info
+2023-02-26 02:40:59,522 DEBUG   HandlerThread:70358 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-26 02:40:59,522 DEBUG   HandlerThread:70358 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-26 02:40:59,523 INFO    HandlerThread:70358 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-26 02:40:59,527 DEBUG   SenderThread:70358 [sender.py:send():336] send: files
+2023-02-26 02:40:59,527 INFO    SenderThread:70358 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-26 02:40:59,542 DEBUG   HandlerThread:70358 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-26 02:40:59,543 DEBUG   SenderThread:70358 [sender.py:send_request():363] send_request: stop_status
+2023-02-26 02:40:59,618 DEBUG   SenderThread:70358 [sender.py:send():336] send: telemetry
+2023-02-26 02:41:00,202 INFO    wandb-upload_0:70358 [upload_job.py:push():138] Uploaded file /tmp/tmp2hshm54jwandb/p2zwfl01-wandb-metadata.json
+2023-02-26 02:41:00,414 INFO    Thread-13 :70358 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/files/wandb-metadata.json
+2023-02-26 02:41:00,415 INFO    Thread-13 :70358 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/files/wandb-summary.json
+2023-02-26 02:41:00,415 INFO    Thread-13 :70358 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/files/requirements.txt
+2023-02-26 02:41:01,413 INFO    Thread-13 :70358 [dir_watcher.py:_on_file_created():275] file/dir created: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/files/output.log
+2023-02-26 02:41:03,414 INFO    Thread-13 :70358 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/files/output.log
+2023-02-26 02:41:04,829 DEBUG   HandlerThread:70358 [handler.py:handle_request():144] handle_request: status_report
+2023-02-26 02:41:05,415 INFO    Thread-13 :70358 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/ubuntu/thesis_implementation/wandb/run-20230226_024059-9yi51pzf/files/output.log
