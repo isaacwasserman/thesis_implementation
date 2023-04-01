@@ -1,5 +1,6 @@
 .DS_Store
+.ipynb_checkpoints
 blobs
-textures
+raw_textures
 all_images
 wandb
