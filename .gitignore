@@ -4,3 +4,4 @@ blobs
 raw_textures
 all_images
 wandb
+__pycache__
