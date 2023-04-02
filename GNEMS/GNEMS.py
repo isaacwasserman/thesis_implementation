@@ -340,7 +340,7 @@ class GraphicallyGuidedEMSegmentor:
         # print("Average training time per iteration:", np.array(itertimes).mean())
         # print("Average graph cut time:", np.array(graphtimes).mean())
 
-    def predict(self):
+    def predict(self, show_progress=True):
         stride = self.prediction_stride
         image = self.image
         image_tensor = torch.tensor(image, dtype=torch.float32)
@@ -357,7 +357,8 @@ class GraphicallyGuidedEMSegmentor:
 
         with torch.no_grad():
             all_tiles_predictions = torch.zeros((len(all_tiles_ds))).to(device)
-            for batch_i, batch in tqdm(enumerate(loader), total=n_batches):
+            iterator = tqdm(enumerate(loader), total=n_batches) if show_progress else enumerate(loader)
+            for batch_i, batch in iterator:
                 batch_predictions = self.net(batch)
                 all_tiles_predictions[batch_i*loader.batch_size:(batch_i+1)*loader.batch_size] = batch_predictions.squeeze(1)
 
@@ -412,7 +413,7 @@ def generate_complex_image(size=(224, 224), noise=0, seed=None):
         image = add_noise(image, amount=noise, seed=seed)
     return image, labels
 
-def GNEMS_segment(image, d=16, n_filters=16, dropout=0.2, lambda_=0.3, lr=0.001, iterations=200, subset_size=0.5, prediction_stride=16, seed=2):
+def GNEMS_segment(image, d=16, n_filters=16, dropout=0.2, lambda_=0.3, lr=0.001, iterations=200, subset_size=0.5, prediction_stride=16, seed=2, show_progress=True):
     size = image.shape[:2]
     segmentor = GraphicallyGuidedEMSegmentor(
                 d=d, n_filters=n_filters, dropout=dropout,
@@ -421,5 +422,5 @@ def GNEMS_segment(image, d=16, n_filters=16, dropout=0.2, lambda_=0.3, lr=0.001,
                 seed=seed
             )
     segmentor.fit(image)
-    segmentation = segmentor.predict()
+    segmentation = segmentor.predict(show_progress=show_progress)
     return segmentation
