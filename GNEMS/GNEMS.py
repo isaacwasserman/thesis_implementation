@@ -268,7 +268,7 @@ class CNN_2(nn.Module):
 
 
 class GraphicallyGuidedEMSegmentor:
-    def __init__(self, d=16, n_filters=16, dropout=0.2, lambda_=0.3, size=(512, 512), lr=0.001, iterations=100, subset_size=0.5, prediction_stride=1, seed=0):
+    def __init__(self, d=16, n_filters=16, dropout=0.2, lambda_=0.3, size=(512, 512), lr=0.001, iterations=100, subset_size=0.5, prediction_stride=1, slic_segments=100, sigma=3, seed=0):
         self.d = d
         self.n_filters = n_filters
         self.dropout = dropout
@@ -285,6 +285,8 @@ class GraphicallyGuidedEMSegmentor:
         self.intermediate_partitions = []
         self.intermediate_probabilities = []
         self.intermediate_graphs = []
+        self.slic_segments = slic_segments
+        self.sigma = sigma
 
     def fit(self, image):
         self.losses = []
@@ -372,7 +374,7 @@ class GraphicallyGuidedEMSegmentor:
         if 3 not in image.shape:
             grayscale = True
             image = np.repeat(image[:, :, np.newaxis], 3, axis=2)
-        segments = slic(image, n_segments=100, sigma=3)
+        segments = slic(image, n_segments=self.slic_segments, sigma=self.sigma)
         segmentation = color.label2rgb(segments, pixelwise_probabilities, kind='avg', bg_label=0)
         segmentation = segmentation > auto_threshold(segmentation)
         if grayscale:
@@ -413,7 +415,7 @@ def generate_complex_image(size=(224, 224), noise=0, seed=None):
         image = add_noise(image, amount=noise, seed=seed)
     return image, labels
 
-def GNEMS_segment(image, d=16, n_filters=16, dropout=0.2, lambda_=0.3, lr=0.001, iterations=200, subset_size=0.5, prediction_stride=16, seed=2, show_progress=True):
+def GNEMS_segment(image, d=16, n_filters=16, dropout=0.2, lambda_=0.3, lr=0.001, iterations=200, subset_size=0.5, prediction_stride=16, slic_segments=100, sigma=3, seed=2, show_progress=True):
     size = image.shape[:2]
     segmentor = GraphicallyGuidedEMSegmentor(
                 d=d, n_filters=n_filters, dropout=dropout,
