@@ -1,0 +1,1 @@
+{"d": 16, "iterations": 50, "prediction_stride": 8, "lambda_": 0.4, "n_filters": 16, "slic_segments": 100, "sigma": 3}
