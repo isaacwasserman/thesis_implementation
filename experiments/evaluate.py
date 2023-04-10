@@ -47,35 +47,36 @@ def calculate_PRI(segmentation, gt):
     return PRI
 
 def calculate_mIOU(segmentation, gt):
-    gt_array = gt
-    miou_for_each_class = []
-    label_list = np.unique(gt_array)
+    return sklearn.metrics.jaccard_score(gt.flatten().astype(int), segmentation.flatten().astype(int), average="weighted")
+    # gt_array = gt
+    # miou_for_each_class = []
+    # label_list = np.unique(gt_array)
 
-    # gt_mask is 0 where gt label is 0 (background) and 1 where gt label is not 0 (foreground)
-    gg = np.zeros(gt_array.shape)
-    gt_mask = np.where(gt_array > 0, 1, gg)
-    # label_list is the list of labels in the input array (range(k))
-    label_list = np.unique(gt_array)
+    # # gt_mask is 0 where gt label is 0 (background) and 1 where gt label is not 0 (foreground)
+    # gg = np.zeros(gt_array.shape)
+    # gt_mask = np.where(gt_array > 0, 1, gg)
+    # # label_list is the list of labels in the input array (range(k))
+    # label_list = np.unique(gt_array)
 
 
-    gt_array_1d = gt.reshape((gt.shape[0]*gt.shape[1])) # 1d array of gt labels
-    input_array_1d = segmentation.reshape((segmentation.shape[0]*segmentation.shape[1])) # 1d array of input labels
+    # gt_array_1d = gt.reshape((gt.shape[0]*gt.shape[1])) # 1d array of gt labels
+    # input_array_1d = segmentation.reshape((segmentation.shape[0]*segmentation.shape[1])) # 1d array of input labels
 
-    miou_list = []
-    # For each class in range k
-    for l in label_list:
-        inds = np.where( gt_array_1d == l )[0] # indices of gt where label is l
-        pred_labels = input_array_1d[ inds ] # predictions at those indices
-        u_pred_labels = np.unique(pred_labels) # unique predictions at those indices
-        hists = [ np.sum(pred_labels == u) for u in u_pred_labels ] # frequency of each unique prediction at those indices
-        fractions = [ len(inds) + np.sum(input_array_1d == u) - np.sum(pred_labels == u) for u in u_pred_labels ] # (total number of pixels in gt with label l) + (total number of pixels in input with label u) - (total number of pixels in input with label u and gt label l)
-        mious = hists / np.array(fractions,dtype='float')
-        miou_list.append( np.max(mious) )
-        miou_for_each_class.append( np.max(mious) )
+    # miou_list = []
+    # # For each class in range k
+    # for l in label_list:
+    #     inds = np.where( gt_array_1d == l )[0] # indices of gt where label is l
+    #     pred_labels = input_array_1d[ inds ] # predictions at those indices
+    #     u_pred_labels = np.unique(pred_labels) # unique predictions at those indices
+    #     hists = [ np.sum(pred_labels == u) for u in u_pred_labels ] # frequency of each unique prediction at those indices
+    #     fractions = [ len(inds) + np.sum(input_array_1d == u) - np.sum(pred_labels == u) for u in u_pred_labels ] # (total number of pixels in gt with label l) + (total number of pixels in input with label u) - (total number of pixels in input with label u and gt label l)
+    #     mious = hists / np.array(fractions,dtype='float')
+    #     miou_list.append( np.max(mious) )
+    #     miou_for_each_class.append( np.max(mious) )
         
-    mIOU = sum(miou_list) / float(len(miou_list))
+    # mIOU = sum(miou_list) / float(len(miou_list))
 
-    return mIOU
+    # return mIOU
 
 def str_is_num(s):
     return np.array([(char in "0123456789.-") for char in s]).all()
@@ -93,8 +94,8 @@ def has_been_evaluated(segmentation):
         return True
         
 results = {}
-def evaluate(method_name):
-    print(f"Evaluating {method_name}...")
+def evaluate(method_name, use_cache=True):
+    print(f"Evaluating {method_name}{' without cache' if not use_cache else ''}...")
     with open("../datasets/noise/test_ids.txt", "r") as f:
         noise_segmentation_paths = [f"../results/{method_name}/noise/" + line.strip() + ".png" for line in f.readlines()]
     with open("../datasets/clouds/test_ids.txt", "r") as f:
@@ -110,13 +111,14 @@ def evaluate(method_name):
     for path in cloud_segmentation_paths:
         id = path.split("/")[-1].split(".")[0]
         if not os.path.exists(path):
+            print(f"Segmentation {path} does not exist.")
             cloud_scs.append(0)
-            cloud_vis.append(100)
+            cloud_vis.append(1)
             cloud_pris.append(0)
             cloud_mious.append(0)
             continue
         segmentation = Image.open(path)
-        if has_been_evaluated(segmentation):
+        if has_been_evaluated(segmentation) and use_cache:
             sc = float(segmentation.text["sc"])
             vi = float(segmentation.text["vi"])
             pri = float(segmentation.text["pri"])
@@ -136,6 +138,8 @@ def evaluate(method_name):
             metadata.add_text("pri", str(pri))
             metadata.add_text("miou", str(miou))
             Image.fromarray(segmentation).save(path, pnginfo=metadata)
+        # if miou < 0.3:
+        #     print(f"Segmentation {path} has miou {miou}.")
         cloud_scs.append(sc)
         cloud_vis.append(vi)
         cloud_pris.append(pri)
@@ -155,7 +159,7 @@ def evaluate(method_name):
             noise_mious[noise_level].append(0)
             continue
         segmentation = Image.open(path)
-        if has_been_evaluated(segmentation):
+        if has_been_evaluated(segmentation) and use_cache:
             sc = float(segmentation.text["sc"])
             vi = float(segmentation.text["vi"])
             pri = float(segmentation.text["pri"])
@@ -193,7 +197,7 @@ def evaluate(method_name):
             texture_mious.append(0)
             continue
         segmentation = Image.open(path)
-        if has_been_evaluated(segmentation):
+        if has_been_evaluated(segmentation) and use_cache:
             sc = float(segmentation.text["sc"])
             vi = float(segmentation.text["vi"])
             pri = float(segmentation.text["pri"])
