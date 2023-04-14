@@ -21,6 +21,7 @@ from skimage.segmentation import slic, mark_boundaries
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 warnings.filterwarnings("ignore")
 from time import time
+from skimage.draw import disk
 
 device = "cuda" if torch.cuda.is_available() else ("mps" if torch.backends.mps.is_available() else "cpu")
 if device == "cuda":
@@ -88,6 +89,50 @@ def arbitrary_labels(n, proportion=0.5):
     randoms = torch.rand(n)
     labels = torch.zeros(n)
     labels[randoms > proportion] = 1
+    return labels
+
+def initial_labels(n, proportion=0.5, method="circle"):
+    labels = torch.zeros(n)
+    labels = labels.reshape(int(n**0.5), int(n**0.5))
+    # locate center coordinates
+    centerX = int(n**0.5/2)
+    centerY = int(n**0.5/2)
+    # set center to 1
+    labels[centerX, centerY] = 1
+    if method == "square":
+        # grow from center in roughly square shape until proportion is reached. Make fine grained
+        while labels.sum() < proportion*n:
+            labels_inter = torch.nn.functional.conv2d(labels.reshape(1, 1, int(n**0.5), int(n**0.5)), torch.ones(1, 1, 3, 3), padding=1)
+            labels_inter = labels_inter.reshape(n)
+            labels = labels.reshape(n)
+            candidates = labels_inter > 0
+            for i,candidate in enumerate(candidates):
+                if candidate:
+                    labels[i] = 1
+                    if labels.sum() > proportion*n:
+                        break
+            labels = labels.reshape(int(n**0.5), int(n**0.5))
+    elif method == "circle":
+        labels = np.zeros((int(np.sqrt(n)), int(np.sqrt(n))), dtype=np.uint8)
+        # option 1
+        option1 = labels
+        row = int(np.sqrt(n)) // 2
+        col = int(np.sqrt(n)) // 2
+        radius = int(np.sqrt(n * proportion / np.pi))
+        rr, cc = disk((row, col), radius)
+        option1[rr, cc] = 1
+        # option 2
+        option2 = labels
+        row = (int(np.sqrt(n)) // 2)
+        col = (int(np.sqrt(n)) // 2)
+        radius = int(np.sqrt(n * proportion / np.pi)) + 1
+        rr, cc = disk((row, col), radius)
+        option2[rr, cc] = 1
+        if np.abs((option1.reshape(n).sum() / n) - proportion) < np.abs((option2.reshape(n).sum() / n) - proportion):
+            labels = option1
+        else:
+            labels = option2
+    labels = torch.tensor(labels.reshape(n))
     return labels
 
 def generate_tiles(size=(224, 224), fore_back_ratio=0.5, noise=0.5, d=8, seed=None):
@@ -268,7 +313,7 @@ class CNN_2(nn.Module):
 
 
 class GraphicallyGuidedEMSegmentor:
-    def __init__(self, d=16, n_filters=16, dropout=0.2, lambda_=0.3, size=(512, 512), lr=0.001, iterations=100, subset_size=0.5, prediction_stride=1, slic_segments=100, sigma=3, seed=0):
+    def __init__(self, d=16, n_filters=16, dropout=0.2, lambda_=0.3, size=(512, 512), lr=0.001, iterations=100, subset_size=0.5, prediction_stride=1, slic_segments=100, sigma=3, seed=0, deterministic=True):
         self.d = d
         self.n_filters = n_filters
         self.dropout = dropout
@@ -287,6 +332,7 @@ class GraphicallyGuidedEMSegmentor:
         self.intermediate_graphs = []
         self.slic_segments = slic_segments
         self.sigma = sigma
+        self.deterministic = deterministic
 
     def fit(self, image):
         self.losses = []
@@ -298,9 +344,18 @@ class GraphicallyGuidedEMSegmentor:
         if self.seed is not None:
             torch.manual_seed(self.seed)
         X = tile(image, d=self.d).type(torch.float32).to(device).permute(0, 3, 1, 2)
-        y_initial = arbitrary_labels(self.d**2).type(torch.float32).to(device).unsqueeze(1)
+        if self.deterministic:
+            y_initial = initial_labels(self.d**2).type(torch.float32).to(device).unsqueeze(1)
+        else:
+            y_initial = arbitrary_labels(self.d**2).type(torch.float32).to(device).unsqueeze(1)
 
         self.net = CNN(image_size=self.tile_size, n_filters=self.n_filters, n_channels=X.shape[1], dropout=self.dropout).to(device)
+        
+        if self.deterministic:
+            torch.manual_seed(0)
+            init = torch.nn.init
+            init_weights = lambda m: init.xavier_uniform_(m.weight, gain=init.calculate_gain('relu')) if type(m) == nn.Conv2d else None
+            self.net.apply(init_weights)
         
         # train CNN
         y_intermediate = y_initial.clone().detach()
@@ -312,11 +367,18 @@ class GraphicallyGuidedEMSegmentor:
         for iteration in range(self.iterations):
             start = time()
             # extract subset of data
-            shuffled_idx = torch.randperm(X.shape[0])
+            if not self.deterministic:
+                shuffled_idx = torch.randperm(X.shape[0])
+            else:
+                shuffled_idx = torch.arange(X.shape[0])
             X_shuffled = X[shuffled_idx]
             y_intermediate_shuffled = y_intermediate[shuffled_idx]
-            X_subset = X_shuffled[:int(self.subset_size * X.shape[0])]
-            y_intermediate_subset = y_intermediate_shuffled[:int(self.subset_size * X.shape[0])]
+            if not self.deterministic:
+                X_subset = X_shuffled[:int(self.subset_size * X.shape[0])]
+                y_intermediate_subset = y_intermediate_shuffled[:int(self.subset_size * X.shape[0])]
+            else:
+                X_subset = X_shuffled[iteration % int(1 / self.subset_size)::int(1 / self.subset_size)]
+                y_intermediate_subset = y_intermediate_shuffled[iteration % int(1 / self.subset_size)::int(1 / self.subset_size)]
 
             inputs = X_subset
             labels = y_intermediate_subset
@@ -415,13 +477,13 @@ def generate_complex_image(size=(224, 224), noise=0, seed=None):
         image = add_noise(image, amount=noise, seed=seed)
     return image, labels
 
-def GNEMS_segment(image, d=16, n_filters=16, dropout=0.2, lambda_=0.3, lr=0.001, iterations=200, subset_size=0.5, prediction_stride=16, slic_segments=100, sigma=3, seed=2, show_progress=True):
+def GNEMS_segment(image, d=16, n_filters=16, dropout=0.2, lambda_=0.3, lr=0.001, iterations=200, subset_size=0.5, prediction_stride=16, slic_segments=100, sigma=3, seed=2, deterministic=True, show_progress=True):
     size = image.shape[:2]
     segmentor = GraphicallyGuidedEMSegmentor(
                 d=d, n_filters=n_filters, dropout=dropout,
                 lambda_=lambda_, size=size, lr=lr,
                 iterations=iterations, subset_size=subset_size, prediction_stride=prediction_stride,
-                seed=seed
+                seed=seed, deterministic=deterministic, slic_segments=slic_segments, sigma=sigma
             )
     segmentor.fit(image)
     segmentation = segmentor.predict(show_progress=show_progress)
