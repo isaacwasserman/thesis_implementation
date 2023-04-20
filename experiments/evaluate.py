@@ -46,8 +46,37 @@ def calculate_PRI(segmentation, gt):
     PRI = sklearn.metrics.adjusted_rand_score(segmentation.flatten(), gt.flatten())
     return PRI
 
+def smart_jaccard(gt_, seg_):
+    gt = torch.tensor(gt_)
+    seg = torch.tensor(seg_)
+    gt_segments = torch.unique(gt)
+    seg_segments = torch.unique(seg)
+    # assign each float value to an arbitrary int value
+    for i, gt_segment in enumerate(gt_segments):
+        gt[gt == gt_segment] = i
+    for i, seg_segment in enumerate(seg_segments):
+        seg[seg == seg_segment] = i
+    gt = gt.int()
+    seg = seg.int()
+    gt_segments = torch.unique(gt)
+    seg_segments = torch.unique(seg)
+    segment_mapping = {}
+    for seg_segment in seg_segments:
+        overlaps = torch.zeros(gt_segments.shape[0])
+        for i, gt_segment in enumerate(gt_segments):
+            overlaps[i] = torch.sum((gt == gt_segment) & (seg == seg_segment))
+        segment_mapping[int(seg_segment)] = gt_segments[torch.argmax(overlaps)]
+    jaccard = 0
+    label_aligned_seg = torch.zeros(seg.shape, dtype=torch.int)
+    for seg_segment in seg_segments:
+        label_aligned_seg[seg == seg_segment] = segment_mapping[int(seg_segment)]
+    for gt_segment in gt_segments:
+        jaccard += torch.sum((gt == gt_segment) & (label_aligned_seg == gt_segment)) / torch.sum((gt == gt_segment) | (label_aligned_seg == gt_segment))
+    score = float(jaccard / gt_segments.shape[0])
+    return score
+
 def calculate_mIOU(segmentation, gt):
-    return sklearn.metrics.jaccard_score(gt.flatten().astype(int), segmentation.flatten().astype(int), average="weighted")
+    return smart_jaccard(segmentation, gt)
     # gt_array = gt
     # miou_for_each_class = []
     # label_list = np.unique(gt_array)
